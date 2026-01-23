@@ -1,0 +1,91 @@
+:root {
+  /* Definición de colores */
+    --bg-principal: #1a1a1b;
+    --bg-secundario: #2d2d2e;
+    --texto-principal: #e2e2e2;
+    --texto-secundario: #a0a0a0;
+    
+    /* Fuente que elegimos antes */
+    --fuente-principal: 'Roboto Slab', serif;
+}
+
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../font/Roboto/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+
+}
+
+
+/* Registro de Inter */
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-principal);
+    color: var(--texto-principal);
+    font-family: var(--fuente-principal);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: var(--texto-principal);
+}
+
+p {
+    color: var(--texto-secundario);
+}
+
+.bi-globe-americas {
+    color: #e2e2e2;
+}
+
+.bi-github {
+    color: #e2e2e2;
+}
+
+.img-perfil {
+    position: absolute;
+    top: 30%;
+    width: 10%;
+    z-index: 1;
+}
+
+#myBtn {
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    /* background-color: var(--bg-secundario); */
+    color: var(--texto-secundario);
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+
+@media (max-width: 600px) {
+    .img-perfil {
+      display: none;
+    }
+    
+}

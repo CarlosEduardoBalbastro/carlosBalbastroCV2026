@@ -1,0 +1,11 @@
+.freeyou {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+}
+
+.presentacion-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
