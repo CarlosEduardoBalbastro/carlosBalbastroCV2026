@@ -1,0 +1,23 @@
+.hidden-nav-content {
+   
+    display: none;
+    justify-content: space-between; /* Empuja un div a cada extremo */
+    align-items: center;           /* Alinea verticalmente al centro */
+    padding: 1rem 2rem;
+    background-color: var(--bg-principal);
+   
+    width: 100%;
+    box-sizing: border-box;  
+
+}
+
+.portfolio {
+    width: 50%;
+   
+    
+}
+
+.galeria-img {
+    width: 50%;
+
+}

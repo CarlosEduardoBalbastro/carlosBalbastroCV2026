@@ -1,0 +1,148 @@
+/* 1. Contenedor de la sección */
+.projects-section {
+    padding: 60px 20px;
+    /* color: #ffffff; */
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 3rem;
+}
+
+/* 2. El Grid de 4 columnas */
+.projects-grid-redes {
+    display: grid;
+    /* 4 columnas iguales en desktop */
+    /* grid-template-columns: repeat(2, 1fr);  */
+    grid-template-columns: 1fr;
+    gap: 25px; /* Espacio entre cards */
+    /* max-width: 1000px; */
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* 3. Estilo de la Card con Flexbox */
+.project-card-redes {
+    background-color: #1a1a1a; /* Gris muy oscuro para despegar del fondo */
+    border: 1px solid #333;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Alineación vertical de elementos */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+    /* transform: translateY(-5px); Efecto sutil al pasar el mouse */
+    border-color: #00ffc8; /* Tu color cian de marca */
+}
+
+/* 4. Imagen y Contenido */
+.project-image img {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Mantiene la proporción de tus capturas */
+    object-fit: cover;
+    display: none;
+}
+
+.project-image-redes img {
+     width: 100%;
+    aspect-ratio: 16 / 9; /* Mantiene la proporción de tus capturas */
+    object-fit: cover;
+    display: block;
+}
+
+.project-image-redes a {
+    text-decoration: none;
+    color: #00ffc8;
+}
+
+.project-content-redes {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Hace que el contenido ocupe el espacio disponible */
+}
+
+.project-content-redes p {
+    margin: 0.5rem;
+    color: #e9e9e9;
+    font-weight: 300;
+}
+
+.project-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+/* Tags de tecnologías */
+.project-tags {
+    margin-bottom: 15px;
+}
+
+.project-tags span {
+    font-size: 0.75rem;
+    background: #333;
+    color: #00ffc8; /* Cian para resaltar */
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+/* Lista de puntos clave */
+.project-features {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 20px;
+    padding-left: 18px;
+}
+
+.project-features li {
+    margin-bottom: 5px;
+}
+
+.project-features a {
+    color: #00ffc8;
+    text-decoration: none;
+}
+
+/* Botón final alineado abajo */
+.btn-project-redes {
+    width: 50%;
+    margin-top: 1.5rem; /* Empuja el botón al fondo de la card */
+    background-color: transparent;
+    color: #00ffc8;
+    border: 1px solid #00ffc8;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-project-redes:hover {
+    background-color: #00ffc8;
+    color: #1a1a1b;
+}
+
+.btn-project-redes svg {
+    vertical-align: sub;
+    /* margin-left: 8px; */
+}
+
+@media (max-width: 600px) {
+    .section-title {
+        margin-left: 1rem;
+    }
+    .projects-grid {
+        grid-template-columns: 1fr; /* 1 columna en móviles */
+    }
+    .projects-grid-redes {
+        width: 100%;
+    }
+}

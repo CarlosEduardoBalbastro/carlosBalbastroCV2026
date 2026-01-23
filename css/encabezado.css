@@ -1,0 +1,43 @@
+.encabezado {
+   
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5rem;
+    
+    
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.col {
+    width: 100%;
+    justify-content: center;
+}
+
+.tecnologias {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 1rem;
+    color: var(--texto-secundario);
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    transition: ease-in-out 0.3s hover;
+}
+
+.tecnologias:hover  {
+    font-weight: 600;
+
+
+}
+
+
+

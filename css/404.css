@@ -1,0 +1,23 @@
+
+.container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+
+h2 {
+   font-size: large;
+    color: var(--texto-principal);
+  
+}
+
+
+a {
+    color: var(--enlace-principal);
+    text-decoration: none;
+    transition: color 0.3s ease;
+   
+
+}
+

@@ -1,0 +1,40 @@
+.topweb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 20px;
+    position: relative;
+
+}
+
+
+
+.topweb ul {
+    list-style: none;
+    margin: .3rem;
+  
+   
+}
+
+.topweb ul li {
+    display: inline;
+    /* margin: 1rem; */
+    /* padding: rem; */
+    margin-right: 20px;
+  
+}
+
+
+.topweb ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    /* font-size: 18px; */
+  
+}   
+
+
+
+
