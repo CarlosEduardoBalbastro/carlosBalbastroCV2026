@@ -32,7 +32,8 @@
 }
 
 .navbar ul li a:hover {
-    font-weight: 500;
+    font-weight: 400;
+    text-shadow: 0cap 0px 6px #00ffc85b;
    
 }
 

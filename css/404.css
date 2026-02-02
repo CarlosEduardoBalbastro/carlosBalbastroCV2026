@@ -1,13 +1,13 @@
 
 .container {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 25%;
 }
 
 
 
 h2 {
-   font-size: large;
+   font-size: 4rem;
     color: var(--texto-principal);
   
 }
@@ -21,3 +21,6 @@ a {
 
 }
 
+a:hover {
+    color: #00ffc8;
+}
