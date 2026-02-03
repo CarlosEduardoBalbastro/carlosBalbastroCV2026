@@ -69,6 +69,13 @@ p {
     z-index: 1;
 }
 
+.img-perfil:hover {
+    box-shadow: 0px 0px 6px  #00ffc8e7;
+    border-radius: 50%;
+    /* transform: scale(1.1); */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
 #myBtn {
     cursor: pointer;
 }
