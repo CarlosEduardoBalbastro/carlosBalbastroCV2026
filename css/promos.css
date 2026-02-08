@@ -1,0 +1,49 @@
+ #date {
+            color: #fffffa;
+            font-weight: lighter;
+            font-size: 1.2rem;
+            text-align: center;
+            text-shadow: 2px 2px 5px #00ffc875 ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+        }
+
+
+.plantillas ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  
+}
+.plantillas li {
+  margin: 1rem 0;
+  color: #fafafa;
+}
+.plantillas a {
+  color: #bf6cff;
+  text-decoration: none;
+}
+.plantillas a:hover {
+  text-decoration: underline;
+}
+
+
+
+   
+.precio {
+            font-weight: 600;
+            margin: .1rem;
+            color: #737373;
+            text-decoration: line-through;
+        }
+.precio_oferta {
+            font-weight:600;
+            margin: .1rem;
+
+
+        }     
+        
+        
+        
