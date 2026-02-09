@@ -105,7 +105,7 @@ footer a:hover {
 @media (max-width:1400px) {
     .img-perfil {
         width: 6%;
-        max-width: 80px;
+        /* max-width: 80px; */
       /* display: none; */
     }
 }
