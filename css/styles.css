@@ -65,7 +65,7 @@ p {
 .img-perfil {
     position: absolute;
     top: 20%;
-    width: 10%;
+    width: 8%;
     max-width: 150px;
     z-index: 1;
 }
@@ -102,11 +102,11 @@ footer a:hover {
 }
 
 
-@media (max-width:1400px) {
+@media (min-width:1400px) {
     .img-perfil {
-        /* width: 6%; */
-        /* max-width: 80px; */
-      display: none;
+        width: 6%;
+        max-width: 80px;
+      /* display: none; */
     }
 }
 
