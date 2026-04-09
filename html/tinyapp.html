@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyPic | Optimizador de Imágenes</title>
+    <link rel="stylesheet" href="/css/tinyapp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="minimal-header">
+        <h1>TinyPic<span>.online</span></h1>
+        <p>Optimización profesional privada. Tus fotos no salen de tu navegador.</p>
+  
+    </header>
+
+    <main class="app-container">
+        <div id="drop-area" class="upload-box">
+            <div class="icon-upload">↓</div>
+            <p>Arrastra imágenes o <span>selecciona archivos</span></p>
+            <input type="file" id="file-input" accept="image/*" multiple hidden>
+        </div>
+
+        <section id="process-area" class="hidden">
+            <div class="controls">
+                <div class="control-item">
+                    <label>Calidad: <span id="q-label">80</span>%</label>
+                    <input type="range" id="quality" min="10" max="100" value="80">
+                </div>
+                <div class="buttons-group">
+                    <button id="clear-all" class="btn-outline">Limpiar todo</button>
+                </div>
+            </div>
+
+            <div id="preview-list" class="grid-previews"></div>
+        </section>
+    </main>
+
+
+    <footer class="app-footer">
+    <div class="footer-content">
+        <p>Desarrollado por <strong>carlos-web.online</strong></p>
+        <div class="footer-links">
+            <a href="https://carlos-web.online" target="_blank" rel="noopener">Sitio Web</a>
+            <span class="separator">/</span>
+            <a href="https://github.com/CarlosEduardoBalbastro" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p class="copyright">© 2026 • TinyApp Project</p>
+    </div>
+</footer>
+
+    <script src="/js/tinyapp.js"></script>
+</body>
+</html>
