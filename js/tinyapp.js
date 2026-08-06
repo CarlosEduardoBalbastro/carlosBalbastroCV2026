@@ -1,6 +1,6 @@
 const dropArea = document.getElementById('drop-area');
 const fileInput = document.getElementById('file-input');
-const qualitySlider = document.getElementById('quality');
+// const qualitySlider = document.getElementById('quality');
 const qLabel = document.getElementById('q-label');
 const previewList = document.getElementById('preview-list');
 const processArea = document.getElementById('process-area');
@@ -68,7 +68,8 @@ function compressAndRender(img, fileName) {
     ctx.drawImage(img, 0, 0, width, height);
     
     // EXPORTACIÓN A WEBP 
-    const quality = qualitySlider.value / 100;
+    // const quality = qualitySlider.value / 100;
+    const quality = 0.8; // Valor fijo de calidad para simplificar
     const dataUrl = canvas.toDataURL('image/webp', quality);
     
     // Corregir extensión del nombre del archivo
@@ -115,6 +116,6 @@ function resetApp() {
 document.getElementById('clear-all').onclick = resetApp;
 
 // Actualizar el número del slider de calidad
-qualitySlider.oninput = () => { 
-    qLabel.innerText = qualitySlider.value; 
-};
+// qualitySlider.oninput = () => { 
+//     qLabel.innerText = qualitySlider.value; 
+// };
