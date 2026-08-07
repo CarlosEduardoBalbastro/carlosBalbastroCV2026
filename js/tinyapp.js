@@ -113,7 +113,11 @@ function resetApp() {
 }
 
 // Botón "Limpiar Todo"
-document.getElementById('clear-all').onclick = resetApp;
+// document.getElementById('clear-all').onclick = resetApp;
+const clearAllBtn = document.getElementById('clear-all');
+if (clearAllBtn) {
+    clearAllBtn.onclick = resetApp;
+}
 
 // Actualizar el número del slider de calidad
 // qualitySlider.oninput = () => { 
